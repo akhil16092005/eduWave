@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # eduWave 
 ## Introduction
 Introducing eduWave: an innovative solution at the intersection of technology and mindfulness, designed to revolutionize education. By empowering teachers with interactive course design tools and providing students with customizable study environments, eduWave enhances focus and engagement in learning. Through features like distraction-blocking applications and gamified learning platforms, we aim to cultivate a conducive learning environment. Join us in shaping the future of education with eduWave.
@@ -98,3 +99,6 @@ now, you can view the app at http://localhost:3000
 ```
 you can access the backend APIs at http://localhost:5001
 ```
+=======
+# eduWave
+>>>>>>> 6551ce764e684ec2a8264777cf4e9ea40a7260c9
