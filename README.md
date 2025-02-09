@@ -1,104 +1,112 @@
-<<<<<<< HEAD
-# eduWave 
-## Introduction
-Introducing eduWave: an innovative solution at the intersection of technology and mindfulness, designed to revolutionize education. By empowering teachers with interactive course design tools and providing students with customizable study environments, eduWave enhances focus and engagement in learning. Through features like distraction-blocking applications and gamified learning platforms, we aim to cultivate a conducive learning environment. Join us in shaping the future of education with eduWave.
+
+## **Overview**
+
+eduWave is a groundbreaking educational platform that seamlessly integrates technology with mindfulness to transform the learning experience. Our goal is to empower educators with tools for designing engaging courses while offering students personalized study environments that enhance focus and retention. With features like distraction-free learning modes and gamification, eduWave fosters an environment that nurtures both academic and personal growth. Be part of the future of education with eduWave.
+
 ```
-access our app at https://edu-wave.vercel.app
+Experience eduWave at: https://edu-wave.vercel.app
 ```
-## Features
-## Teacher Side Features:
-1. **Student Management:**
-   - Create and manage student login credentials.
-   - Organize student profiles and access.
 
-2. **Task Management:**
-   - Maintain to-do lists for assignments, tasks, and deadlines.
-   - Set reminders and notifications for upcoming events.
+## **Key Features**
 
-3. **Resource Sharing:**
-   - Share educational materials, documents, and resources with students.
-   - Upload files, links, and multimedia content for easy access.
+### **For Educators:**
 
-4. **Interactive Learning:**
-   - Conduct live video conferences for interactive teaching.
-   - Engage students in real-time discussions, Q&A sessions, and lectures.
+1. **Student Administration:**
+   - Generate and manage student accounts.
+   - Oversee student profiles and activity.
 
-5. **Assessment and Progress:**
-   - Create and manage quizzes, tests, and assessments.
-   - View detailed statistics and analytics on student performance.
+2. **Task Coordination:**
+   - Maintain to-do lists for academic tasks and deadlines.
+   - Configure alerts and notifications for upcoming events.
 
-6. **Engagement and Motivation:**
-   - Showcase leaderboards to encourage healthy competition.
-   - Recognize student achievements and progress publicly.
+3. **Resource Distribution:**
+   - Provide students with access to essential learning materials.
+   - Upload documents, multimedia files, and external links effortlessly.
 
-## Student Side Features:
-1. **Task Management and Planning:**
-   - Maintain personal to-do lists for study tasks and assignments.
-   - Organize schedules and deadlines for better time management.
+4. **Interactive Teaching:**
+   - Conduct live classes with video conferencing tools.
+   - Facilitate real-time discussions, Q&A sessions, and engaging lectures.
 
-2. **Personalized Learning Paths:**
-   - Explore custom learning paths based on interests and goals.
-   - Access recommended study materials and resources.
+5. **Student Assessment & Analytics:**
+   - Develop quizzes, tests, and various assessments.
+   - Monitor and analyze student performance with detailed reports.
 
-3. **Interactive Canvas Board:**
-   - Engage in interactive learning activities on a virtual canvas.
-   - Collaborate with peers and teachers on group projects and discussions.
+6. **Student Engagement & Motivation:**
+   - Implement leaderboards to encourage friendly competition.
+   - Acknowledge student accomplishments with public recognition.
 
-4. **Assessment and Practice:**
-   - Attempt quizzes and assessments for self-assessment and practice.
-   - Receive instant feedback and results to track progress.
+### **For Students:**
 
-5. **Subject-Based Statistics:**
-   - View detailed statistics on performance in various subjects.
-   - Identify strengths and weaknesses to focus on improvement areas.
+1. **Task Planning & Organization:**
+   - Track assignments and deadlines efficiently.
+   - Create and manage personal study schedules.
 
-6. **ChatAI for Reference:**
-   - Utilize an AI-powered chatbot for quick answers and reference.
-   - Access instant explanations, definitions, and study tips.
+2. **Custom Learning Journeys:**
+   - Discover tailored learning paths based on academic interests.
+   - Access curated study resources.
 
-7. **Motivation and Engagement:**
-   - Participate in leaderboards to track personal progress.
+3. **Collaborative Whiteboard:**
+   - Engage with an interactive digital canvas for brainstorming and project work.
+   - Collaborate with peers and teachers effectively.
 
-## Installation
-Clone my repository
+4. **Practice & Evaluation:**
+   - Take quizzes and self-assessments for progress tracking.
+   - Get instant feedback and insights on performance.
+
+5. **Subject Performance Insights:**
+   - Analyze detailed reports on academic strengths and areas of improvement.
+
+6. **AI-powered Study Assistant:**
+   - Leverage ChatAI for instant references and explanations.
+   - Obtain quick answers, definitions, and helpful study tips.
+
+7. **Progress & Motivation:**
+   - Compete on leaderboards to track academic performance.
+
+## **Getting Started**
+
+**Clone the repository:**
 ```
-  git clone https://github.com/suraj719/eduWave.git
+git clone https://github.com/suraj719/eduWave.git
 ```
-add a .env file with the below config in the root directory
+
+**Create a `.env` file in the root directory and include the following configuration:**
 ```
 REACT_APP_BACKEND_URL = "http://localhost:5001"
 REACT_APP_CHAT_API_KEY = "open ai api key"
 REACT_APP_API_KEY = "firebase config"
 REACT_APP_AUTH_DOMAIN = "firebase config"
 REACT_APP_PROJECT_ID = "firebase config"
-REACT_APP_STORAGE_BUCKET="firebase config"
+REACT_APP_STORAGE_BUCKET = "firebase config"
 REACT_APP_MESSAGING_SENDER_ID = "firebase config"
 REACT_APP_APP_ID = "firebase config"
 ```
-add another .env with the below config in the ```server``` directory
+
+**Additionally, create another `.env` file inside the `server` directory with the following details:**
 ```
 MONGO_URL = ""
-jwt_secret = "
-clientId = "client id of gcp"
-clientSecret = "client secret of gcp"
-refreshToken="refresh token you get from the OAuth playground"
+jwt_secret = ""
+clientId = "GCP client ID"
+clientSecret = "GCP client secret"
+refreshToken = "OAuth refresh token"
 ```
-install the dependencies for both client and server
+
+### **Install Dependencies & Run the Application**
+
+**Install the required dependencies for both the frontend and backend:**
 ```
-  npm install
-  npm start
-```
-```
-  cd server
-  npm install
-  npm start
+npm install
+npm start
 ```
 ```
-now, you can view the app at http://localhost:3000
+cd server
+npm install
+npm start
 ```
 ```
-you can access the backend APIs at http://localhost:5001
+Now, access the application at: http://localhost:3000
 ```
-=======
-# eduWave
->>>>>>> 6551ce764e684ec2a8264777cf4e9ea40a7260c9
+```
+Backend APIs are available at: http://localhost:5001
+```
+
